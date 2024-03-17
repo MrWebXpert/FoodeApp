@@ -1,0 +1,112 @@
+@media only screen and (max-width: 1024px) {
+
+     /* story sectionn */
+     .story-section h2 {
+          font-size: 2rem;
+          font-weight: 800;
+     }.story-section p {
+          padding: 2rem 2rem;
+          font-size: 1rem;
+          font-weight: 700;
+     }
+}
+
+@media only screen and (max-width: 767px) {
+
+     /* story sectionn */
+     .story-section h2 {
+          font-size: 1.7rem;
+          font-weight: 800;
+     }.story-section p {
+          padding: 2rem 2rem;
+          font-size: 1rem;
+          font-weight: 700;
+     }
+     /* Explore Foodss */
+     .food-data h4{
+          color: var(--brown-color);
+          font-size: 1.2rem;
+          font-weight: 700;
+          padding: 0rem 1rem;
+      }.food-data p{
+          font-size: 0.9rem;
+          font-weight: 800;
+      }
+      .footer-section a{
+          color: #ffff;
+          margin:0 8px;
+          font-size: 1.1rem;
+      }
+      .footer-social-icons a i{
+          font-size: 1rem;
+      }
+}
+
+@media only screen and (max-width: 600px) {
+
+     /* about sectionn */
+     #home h1 {
+          padding: 0 11rem 0 0;
+          color: var(--brown-color);
+          font-size: 1.5rem;
+          font-weight: 800;
+     }#home p {
+          padding-right: 7rem;
+          margin-top: 3rem;
+          font-size: 0.9rem;
+          font-weight: 700;
+     }.text-sec h3{
+          padding: 0.6rem;
+          color: var(--brown-color);
+          font-size: 1.5rem;
+          font-weight: 800;
+      }.text-sec p{
+          font-size: 1rem;
+          font-weight: 600;
+      }
+
+     /* story sectionn */
+     .story-section h2 {
+          font-size: 1.4rem;
+          font-weight: 800;
+     }.story-section p {
+          padding: 2rem 2rem;
+          font-size: 0.9rem;
+          font-weight: 600;
+     }
+     .footer-section a{
+          color: #ffff;
+          margin:0 8px;
+          font-size: 1rem;
+      }
+      .footer-social-icons a i{
+          font-size: 1rem;
+      }
+
+
+     
+}
+
+@media only screen and (max-width: 450px) {
+     .carousel-item{
+          padding: 1rem .2rem;
+      }
+     .accordion-item button{
+          font-size: 17px;
+      }
+      .fs{
+          font-size: 25px;
+      }
+      .book-food h2{
+          font-size: 18px;
+          width: 100%;
+      }
+      .footer-section a{
+          color: #ffff;
+          margin:0 8px;
+          font-size: 1rem;
+      }
+      .footer-social-icons a i{
+          font-size: 1rem;
+      }
+}
